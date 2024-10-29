@@ -17,10 +17,29 @@ class _LanguagesScreenState extends State<LanguagesScreen> {
         title: const Text('Languages Getx'),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ListTile(
             title: Text('message'.tr),
-            subtitle: Text('name'),
+            subtitle: Text('name'.tr),
+          ),
+          const SizedBox(
+            height: 20,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              OutlinedButton(
+                  onPressed: () {
+                    Get.updateLocale(const Locale('en', 'US'));
+                  },
+                  child: const Text('Enlish')),
+              OutlinedButton(
+                  onPressed: () {
+                    Get.updateLocale(const Locale('ur', 'PK'));
+                  },
+                  child: const Text('Urdu')),
+            ],
           )
         ],
       ),
