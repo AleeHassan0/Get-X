@@ -18,9 +18,13 @@ class _HomescreenState extends State<Homescreen> {
       body: const Column(
         children: [],
       ),
-      floatingActionButton: FloatingActionButton(onPressed: () {
-        Get.snackbar("Snackbar", " with help of GetX");
-      }),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Get.snackbar("Snackbar", " with help of GetX");
+        },
+        
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
