@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
+import 'package:getx/getXList/listScreen.dart';
 import 'package:getx/languages/languages.dart';
-import 'package:getx/languages/languages_screen.dart';
-import 'package:getx/opacity/colorOpacityScreen.dart';
-import 'package:getx/statemanagement/counterScreen.dart';
 import 'package:getx/switch/switchScreen.dart';
 
 void main() {
@@ -27,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Switchscreen(),
+      home: const Listscreen(),
     );
   }
 }
