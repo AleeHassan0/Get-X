@@ -24,7 +24,7 @@ class Logincontroller extends GetxController {
         Get.snackbar('Login Successful', 'Congratulations');
       } else {
         loading.value = false;
-        Get.snackbar('Login', data['error']);
+        Get.snackbar('Login Failed', data['error']);
       }
     } catch (e) {
       loading.value = false;
