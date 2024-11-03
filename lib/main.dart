@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:getx/imagePicker/image_picker_screen.dart';
+import 'package:getx/LoginSignUp/loginScreen.dart';
 import 'package:getx/languages/languages.dart';
 
 void main() {
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ImagePickerScreen(),
+      home: const Loginscreen(),
     );
   }
 }
