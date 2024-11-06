@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:getx/LoginSignUp/loginScreen.dart';
 import 'package:getx/languages/languages.dart';
 
 void main() {
