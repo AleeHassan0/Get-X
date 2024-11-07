@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
+import 'package:getx/MVVM/res/routes/routes.dart';
+import 'package:getx/MVVM/view/splash_screen.dart';
 import 'package:getx/languages/languages.dart';
 
 void main() {
@@ -23,7 +25,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Scaffold(),
+      getPages: AppRoutes.appRoutes(),
+      home: const SplashScreen(),
     );
   }
 }

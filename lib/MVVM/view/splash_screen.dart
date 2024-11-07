@@ -12,6 +12,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("Splah Screen"),
+      ),
       floatingActionButton: FloatingActionButton(onPressed: () {
         throw InternetException();
       }),
