@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:getx/MVVM/res/colors/app_color.dart';
 
 class Utils {
   static void fieldFocusChange(
@@ -9,6 +10,10 @@ class Utils {
   }
 
   static toastMessage(String message) {
-    Fluttertoast.showToast(msg: message);
+    Fluttertoast.showToast(
+      msg: message,
+      backgroundColor: AppColor.blackColor;
+      
+      );
   }
 }
