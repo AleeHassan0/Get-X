@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:getx/MVVM/data/app_exceptions.dart';
+import 'package:getx/MVVM/utils/utils.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -16,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
         title: const Text("Splah Screen"),
       ),
       floatingActionButton: FloatingActionButton(onPressed: () {
-        throw InternetException();
+        Utils.SnackBar('Error ', 'Some unknwon Error has been Accured');
       }),
     );
   }
