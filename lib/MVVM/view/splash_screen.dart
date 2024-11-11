@@ -12,14 +12,14 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
-    return const InternetExceptionWidget();
-    // return Scaffold(
-    //   appBar: AppBar(
-    //     title: const Text("Splah Screen"),
-    //   ),
-    //   floatingActionButton: FloatingActionButton(onPressed: () {
-    //     Utils.SnackBar('Error ', 'Some unknwon Error has been Accured');
-    //   }),
-    // );
+    return Scaffold(
+      body: const InternetExceptionWidget(),
+      appBar: AppBar(
+        title: const Text("Splash Screen"),
+      ),
+      floatingActionButton: FloatingActionButton(onPressed: () {
+        Utils.SnackBar('Error ', 'Some unknwon Error has been Accured');
+      }),
+    );
   }
 }
