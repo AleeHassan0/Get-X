@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getx/MVVM/res/components/internet_exception_widget.dart';
 import 'package:getx/MVVM/utils/utils.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -11,13 +12,14 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Splah Screen"),
-      ),
-      floatingActionButton: FloatingActionButton(onPressed: () {
-        Utils.SnackBar('Error ', 'Some unknwon Error has been Accured');
-      }),
-    );
+    return const InternetExceptionWidget();
+    // return Scaffold(
+    //   appBar: AppBar(
+    //     title: const Text("Splah Screen"),
+    //   ),
+    //   floatingActionButton: FloatingActionButton(onPressed: () {
+    //     Utils.SnackBar('Error ', 'Some unknwon Error has been Accured');
+    //   }),
+    // );
   }
 }
