@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
         title: const Text("Splash Screen"),
       ),
       floatingActionButton: FloatingActionButton(onPressed: () {
-        Utils.SnackBar('Error ', 'Some unknwon Error has been Accured');
+        Utils.SnackBar('Error ', 'Some unknwon Error has  Accured');
       }),
     );
   }
