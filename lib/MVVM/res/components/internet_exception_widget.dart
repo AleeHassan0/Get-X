@@ -35,7 +35,7 @@ class _InternetExceptionWidgetState extends State<InternetExceptionWidget> {
                 width: 163,
                 decoration: BoxDecoration(
                     color: AppColor.primaryColor,
-                    borderRadius: BorderRadius.circular(4)),
+                    borderRadius: BorderRadius.circular(4.1)),
                 child: Center(
                     child: Text(
                   'RETRY',
