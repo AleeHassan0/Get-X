@@ -28,7 +28,7 @@ class _InternetExceptionWidgetState extends State<InternetExceptionWidget> {
                 textAlign: TextAlign.center,
               ),
               SizedBox(
-                height: height * 0.021,
+                height: height * 0.022,
               ),
               Container(
                 height: 42,
