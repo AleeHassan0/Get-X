@@ -21,7 +21,7 @@ class _InternetExceptionWidgetState extends State<InternetExceptionWidget> {
             children: [
               const Icon(
                 Icons.cloud_off,
-                color: AppColor.redColor,
+                color: AppColor.whiteColor,
               ),
               const Text(
                 "Unable to show results\nPlease check your internet\n connection",
