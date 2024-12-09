@@ -31,7 +31,7 @@ class _InternetExceptionWidgetState extends State<InternetExceptionWidget> {
                 height: height * 0.021,
               ),
               Container(
-                height: 42,
+                height: 43,
                 width: 162,
                 decoration: BoxDecoration(
                     color: AppColor.primaryColor,
