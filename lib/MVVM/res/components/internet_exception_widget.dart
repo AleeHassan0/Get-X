@@ -42,7 +42,7 @@ class _InternetExceptionWidgetState extends State<InternetExceptionWidget> {
                   style: Theme.of(context)
                       .textTheme
                       .titleMedium!
-                      .copyWith(color: Colors.red),
+                      .copyWith(color: Colors.white),
                 )),
               )
             ],
